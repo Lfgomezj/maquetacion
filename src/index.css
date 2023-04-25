@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.App {
+    display: flex;
+    height: 105vh;
+}
+
+.menuLateral {
+    background-color: lightskyblue;
+    width: 25%;
+    border-style: ridge;
+
+}
+
+.foto {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+
+}
+
+.imagen img {
+    width: 70%;
+    border-radius: 100%;
+}
+
+.opciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.enlaces {
+    display: flex;
+    margin-top: 30px;
+    text-align: center;
+    width: 60%;
+    height: 40px;
+    background-color: lightsalmon;
+    align-items: center;
+    justify-content: center;
+    border-style: ridge;
+}
+
+.enlaces a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+
+.imagen2 {
+    margin: 65% 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icono img {
+    width: 45px;
+}
+
+.contenido {
+    background-color: lightseagreen;
+    width: 100%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.agregar {
+    height: 20%;
+
+}
+
+.agregar2 button {
+    margin: 20px 0;
+    background-color: white;
+    width: 15%;
+    height: 70px;
+    font-size: 21px;
+    border-style: ridge;
+}
+
+.tarjetas {
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cards {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards img {
+    width: 100%;
+    height: 178px;
+    border-style: ridge;
+}
+
+.texto {
+    width: 100%;
+    padding: 10px 2px;
+    height: 180px;
+    text-align: center;
+
+
+    background-color: white;
+    border-style: ridge;
+
+}
